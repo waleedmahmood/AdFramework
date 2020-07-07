@@ -1,0 +1,22 @@
+{
+  "name": "AdFramework",
+  "version": "0.1.0",
+  "summary": "A short description of AdFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/waleed.mahmood41@gmail.com/AdFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "waleed.mahmood41@gmail.com": "waleed.mahmood41@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/waleed.mahmood41@gmail.com/AdFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AdFramework/Classes/**/*"
+}
