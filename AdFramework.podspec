@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'AdFramework depends on AFNetworking to fetch public data about user and their repositories from github'
 
-  s.homepage         = 'https://github.com/waleed.mahmood41@gmail.com/AdFramework'
+  s.homepage         = 'https://github.com/waleedmahmood/AdFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'waleed.mahmood41@gmail.com' => 'waleed.mahmood41@gmail.com' }
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'AdFramework/AdAptrFramework/**/*'
+  s.source_files = 'AdAptrFramework/**/*'
   
   # s.resource_bundles = {
   #   'AdFramework' => ['AdFramework/Assets/*.png']

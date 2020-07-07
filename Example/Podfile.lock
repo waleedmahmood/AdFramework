@@ -1,16 +1,38 @@
 PODS:
-  - AdFramework (0.1.0)
+  - AdFramework (0.0.1):
+    - AFNetworking (~> 4.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
 
 DEPENDENCIES:
   - AdFramework (from `../`)
+  - AFNetworking (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   AdFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AdFramework: 0eb5b45fa1abba2e147e90a84c24be268b92aa8f
+  AdFramework: 33b2199ff7c44f1e4b1fcf55b0f9b5908768bf72
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
 
-PODFILE CHECKSUM: baf6f2dc5cf65059d4e4e0836a9ef8bb79454b56
+PODFILE CHECKSUM: 7db1b86bcde1ad84a876feecfe6b2f7d823f2161
 
 COCOAPODS: 1.9.1
