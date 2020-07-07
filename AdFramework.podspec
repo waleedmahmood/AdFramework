@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'waleed.mahmood41@gmail.com' => 'waleed.mahmood41@gmail.com' }
-  s.source           = { :git => 'https://github.com/waleed.mahmood41@gmail.com/AdFramework.git', :tag => '0.0.1' }
+  s.source           = { :git => 'https://github.com/waleedmahmood/AdFramework.git', :tag => '0.0.1' }
   
 
   s.ios.deployment_target = '12.0'
