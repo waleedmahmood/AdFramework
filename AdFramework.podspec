@@ -1,40 +1,34 @@
-#
-# Be sure to run `pod lib lint AdFramework.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+
+# Created by: Waleed
+# Author: Waleed
+# Date: 07.07.2020
+
+# Basic Commands for Podspec
+# pod lib create AdFramework.podspec
+# pod lib lint AdFramework.podspec
+# pod trunk push AdFramework.podspec
 
 Pod::Spec.new do |s|
+  # Podspec Naming
   s.name             = 'AdFramework'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'AdFramework help connects user to github for public data tasks'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = 'AdFramework depends on AFNetworking to fetch public data about user and their repositories from github'
-
+  
+  # Podspec Configurations and Dependencies
   s.homepage         = 'https://github.com/waleedmahmood/AdFramework'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'waleed.mahmood41@gmail.com' => 'waleed.mahmood41@gmail.com' }
-  s.source           = { :git => 'https://github.com/waleedmahmood/AdFramework.git', :tag => '0.0.3' }
-  
-
+  s.source           = { :git => 'https://github.com/waleedmahmood/AdFramework.git', :tag => '0.0.4' }
   s.ios.deployment_target = '12.0'
-
   s.source_files = 'AdAptrFramework/**/*'
+  s.frameworks = 'Foundation'
+  s.dependency 'AFNetworking', '~> 4.0'
   
+  # These following lines are for later reference for podspec basic documentation
+  # e.g. when adding brindging-header configuration,
   # s.resource_bundles = {
   #   'AdFramework' => ['AdFramework/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Foundation'
-  s.dependency 'AFNetworking', '~> 4.0'
 end

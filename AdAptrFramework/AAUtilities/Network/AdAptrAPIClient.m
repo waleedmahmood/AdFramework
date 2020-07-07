@@ -10,6 +10,8 @@
 
 static NSString * const ServerAPIBaseURLString = @"https://api.github.com/";
 
+// Created a shared instance for ease of use and avoid spending time on verifying memory leaks.
+
 @implementation AdAptrAPIClient
 
 + (instancetype)sharedClient {
