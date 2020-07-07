@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdFramework'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'AdFramework help connects user to github for public data tasks'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'waleed.mahmood41@gmail.com' => 'waleed.mahmood41@gmail.com' }
-  s.source           = { :git => 'https://github.com/waleedmahmood/AdFramework.git', :tag => '0.0.1' }
+  s.source           = { :git => 'https://github.com/waleedmahmood/AdFramework.git', :tag => '0.0.3' }
   
 
   s.ios.deployment_target = '12.0'
